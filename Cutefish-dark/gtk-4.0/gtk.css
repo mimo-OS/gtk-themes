@@ -6,7 +6,7 @@
  * Base States *
  ***************/
 .background {
-  background-color: #2C2C2C;
+  background-color: #18181A;
   color: white;
 }
 
@@ -1015,6 +1015,7 @@ combobox popover listview > row {
 
 dropdown popover listview > row:selected,
 combobox popover listview > row:selected {
+  border-radius: 6px;
   color: white;
   background-color: alpha(currentColor, 0.06);
 }
@@ -1347,7 +1348,7 @@ headerbar headerbar + separator {
 }
 
 box.vertical headerbar {
-  background-color: #242424;
+  background-color: #18181A;
 }
 
 headerbar > windowhandle > box {
@@ -3503,6 +3504,7 @@ treeview.view > header > button:active, row.activatable.has-open-popup, row.acti
 }
 
 row:selected {
+  border-radius: 6px;
   color: inherit;
 }
 
@@ -4528,10 +4530,10 @@ text color for entries, views and content in general */
 @define-color theme_text_color white;
 /*
 widget base background color */
-@define-color theme_bg_color #2C2C2C;
+@define-color theme_bg_color #18181A;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color #2C2C2C;
+@define-color theme_base_color #242426;
 /*
 base background color of selections */
 @define-color theme_selected_bg_color #5b9bf8;
@@ -4540,13 +4542,13 @@ text/foreground color of selections */
 @define-color theme_selected_fg_color white;
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #2C2C2C;
+@define-color insensitive_bg_color #18181A;
 /*
 text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(255, 255, 255, 0.5);
 /*
 insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #242424;
+@define-color insensitive_base_color #2E2E32;
 /*
 widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color white;
@@ -4555,10 +4557,10 @@ text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color white;
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #2C2C2C;
+@define-color theme_unfocused_bg_color #18181A;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #2C2C2C;
+@define-color theme_unfocused_base_color #242426;
 /*
 base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color #5b9bf8;
@@ -4585,14 +4587,14 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title white;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #242424;
-@define-color wm_unfocused_bg #2C2C2C;
+@define-color wm_bg #18181A;
+@define-color wm_unfocused_bg #18181A;
 /*
 FIXME this is really an API */
-@define-color content_view_bg #2C2C2C;
+@define-color content_view_bg #242426;
 @define-color placeholder_text_color silver;
 /* Very contrasty background for text views (@theme_text_color foreground) */
-@define-color text_view_bg #2C2C2C;
+@define-color text_view_bg #242426;
 @define-color budgie_tasklist_indicator_color white;
 @define-color budgie_tasklist_indicator_color_active white;
 @define-color budgie_tasklist_indicator_color_active_window #999999;

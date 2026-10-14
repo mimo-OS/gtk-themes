@@ -2,7 +2,7 @@
  * Base States *
  ***************/
 .background {
-  background-color: #FFFFFF;
+  background-color: #F1F3F5;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -1011,6 +1011,7 @@ combobox popover listview > row {
 
 dropdown popover listview > row:selected,
 combobox popover listview > row:selected {
+  border-radius: 6px;
   color: rgba(0, 0, 0, 0.87);
   background-color: alpha(currentColor, 0.06);
 }
@@ -3507,6 +3508,7 @@ treeview.view > header > button:active, row.activatable.has-open-popup, row.acti
 }
 
 row:selected {
+  border-radius: 6px;
   color: inherit;
 }
 
@@ -3672,7 +3674,7 @@ calendar > grid > label.day-number.other-month {
  * Dialogs *
  ***********/
 window.dialog.message.background {
-  background-color: #FFFFFF;
+  background-color: #F1F3F5;
 }
 
 window.dialog.message box.dialog-vbox.vertical {
@@ -3688,7 +3690,7 @@ window.dialog.message .titlebar {
 }
 
 window.dialog.message .titlebar:backdrop {
-  background-color: #FFFFFF;
+  background-color: #F1F3F5;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -4532,7 +4534,7 @@ text color for entries, views and content in general */
 @define-color theme_text_color rgba(0, 0, 0, 0.87);
 /*
 widget base background color */
-@define-color theme_bg_color #FFFFFF;
+@define-color theme_bg_color #F1F3F5;
 /*
 text widgets and the like base background color */
 @define-color theme_base_color #FFFFFF;
@@ -4544,13 +4546,13 @@ text/foreground color of selections */
 @define-color theme_selected_fg_color white;
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #FFFFFF;
+@define-color insensitive_bg_color #F1F3F5;
 /*
 text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(0, 0, 0, 0.38);
 /*
 insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #FAFAFA;
+@define-color insensitive_base_color #EAECEF;
 /*
 widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color rgba(0, 0, 0, 0.87);
@@ -4559,7 +4561,7 @@ text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color rgba(0, 0, 0, 0.87);
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #FFFFFF;
+@define-color theme_unfocused_bg_color #F1F3F5;
 /*
 text widgets and the like base background color on backdrop windows */
 @define-color theme_unfocused_base_color #FFFFFF;
